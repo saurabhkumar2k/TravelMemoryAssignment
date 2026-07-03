@@ -20,6 +20,34 @@ Steps are taken as under for TravelMemory Assignment.
 <img width="1890" height="811" alt="image" src="https://github.com/user-attachments/assets/b0b5565b-92e9-45e9-b9f8-fd6535d0afbc" />
 9. Now run command node index.js and keep the server running and check where backend is running or not with public IP along with port 3001.
    <img width="1911" height="575" alt="image" src="https://github.com/user-attachments/assets/27ec1c01-a1c4-4d75-a7ea-6442e798cd69" />
+10. Now again go back to EC2 instance and navigate to frontend folder.
+11. Create .env file 
+<img width="1845" height="825" alt="image" src="https://github.com/user-attachments/assets/21008050-08de-46c2-9912-f9033f909750" />
+12. Run npm install
+13. Run application with command npm start.
+    <img width="1888" height="915" alt="image" src="https://github.com/user-attachments/assets/9e8cca06-2479-4262-9e78-abc1c1f569eb" />
+    <img width="1873" height="702" alt="image" src="https://github.com/user-attachments/assets/995eb75d-90ea-4f69-be22-239bb7eb75cb" />
+
+    <img width="1877" height="885" alt="image" src="https://github.com/user-attachments/assets/35cc4b6d-cce0-49fe-a0c0-e00a6982af29" />
+
+    At this stage application is running successfully.
+14. In continuation, Install Nginx web server with few commands.
+    sudo apt update
+    sudo apt install nginx -y
+    <img width="1405" height="365" alt="image" src="https://github.com/user-attachments/assets/67996442-3d61-439e-ad65-dd3ce8abf96a" />
+15. Start the Nginx Server with two commands:
+    sudo systemctl start nginx
+    sudo systemctl enable nginx
+16. Next need to do configuration for Ngnix, Run command like
+    sudo nano etc/nginx/nginx.conf
+17. Test connection for nginx
+    v<img width="1838" height="758" alt="image" src="https://github.com/user-attachments/assets/24da9ad4-e9aa-428a-86ab-a696e3563ff9" />
+
+    <img width="1838" height="758" alt="image" src="https://github.com/user-attachments/assets/d0840446-94a5-46a9-a046-6e936c0bb33d" />
+
+
+
+
 
 
 
