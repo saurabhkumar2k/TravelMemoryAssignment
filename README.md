@@ -45,6 +45,18 @@ Steps are taken as under for TravelMemory Assignment.
 
     <img width="1838" height="758" alt="image" src="https://github.com/user-attachments/assets/d0840446-94a5-46a9-a046-6e936c0bb33d" />
 
+18.The recommended production setup is:
+   Nginx serves React static files from build/ backend runs on port 3001
+   Nginx proxies /api requests to port 3000
+   <img width="1776" height="790" alt="image" src="https://github.com/user-attachments/assets/908b8c9a-e89f-4842-a5b7-54d826e4d74a" />
+   <img width="1906" height="818" alt="image" src="https://github.com/user-attachments/assets/ec3a044a-6703-4462-ad81-083fc79dc429" />
+19. Nginx proxies /trip requests to port 3000
+   <img width="1675" height="2213" alt="image" src="https://github.com/user-attachments/assets/ebff2c65-149b-406b-8a33-7f011dabad55" />
+20. 
+
+
+
+
 
 
 
