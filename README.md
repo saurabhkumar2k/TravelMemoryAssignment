@@ -59,6 +59,10 @@ Steps are taken as under for TravelMemory Assignment.
 24. Restart nginx with command : sudo systemctl restart nginx
  <img width="1675" height="2213" alt="image" src="https://github.com/user-attachments/assets/ebff2c65-149b-406b-8a33-7f011dabad55" />
 25. Test with the both of the EC2 public IP.
+   <img width="1880" height="878" alt="image" src="https://github.com/user-attachments/assets/2d4f7f31-4f04-4d37-95d7-27114fe4f5de" />
+   <img width="1832" height="891" alt="image" src="https://github.com/user-attachments/assets/dcab4a68-d89e-4349-b15f-3b3605a7f330" />
+   
+
 
 
 
