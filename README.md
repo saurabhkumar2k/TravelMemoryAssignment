@@ -61,7 +61,29 @@ Steps are taken as under for TravelMemory Assignment.
 25. Test with the both of the EC2 public IP.
    <img width="1880" height="878" alt="image" src="https://github.com/user-attachments/assets/2d4f7f31-4f04-4d37-95d7-27114fe4f5de" />
    <img width="1832" height="891" alt="image" src="https://github.com/user-attachments/assets/dcab4a68-d89e-4349-b15f-3b3605a7f330" />
-   
+
+26. Now in context of addition of these instances to load balancer, it is confirmed that both the instances are i working state.
+27. Created a target group named "travelmemory-tg"
+<img width="1880" height="980" alt="image" src="https://github.com/user-attachments/assets/9f5f5364-fa26-401a-bca0-df4fba8a151e" />
+28. Register EC2 instances
+    <img width="1856" height="965" alt="image" src="https://github.com/user-attachments/assets/4edfdabe-0169-46b2-b60f-c1eeee0886e9" />
+29. Health check
+    <img width="1910" height="920" alt="image" src="https://github.com/user-attachments/assets/5478248a-d528-4e1b-a188-18ea1238df42" />
+30. Creating a load balancer and opted Application load balancer.
+    <img width="1901" height="961" alt="image" src="https://github.com/user-attachments/assets/4def581c-aeba-4262-b883-70dbfce625c1" />
+    Load balancer created
+    <img width="1888" height="995" alt="image" src="https://github.com/user-attachments/assets/fa60b148-1879-499d-b992-6346ec4358f9" />
+31. Checked health for the target group
+<img width="1897" height="977" alt="image" src="https://github.com/user-attachments/assets/c5f40fd5-2d40-4794-9c5b-c0368f562d7f" />
+32. Now copied the DNS name from EC2 → Load Balancers → travelmemory-alb and test it in browser.
+<img width="1902" height="887" alt="image" src="https://github.com/user-attachments/assets/227e4593-81d3-4b46-8838-b53134445e6e" />
+
+
+
+
+
+
+
 
 
 
