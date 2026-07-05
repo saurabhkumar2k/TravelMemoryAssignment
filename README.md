@@ -92,10 +92,97 @@ Steps are taken as under for TravelMemory Assignment.
 <img width="1913" height="966" alt="image" src="https://github.com/user-attachments/assets/5bd39e3f-ba48-4cb4-95dd-36c6c1e66de2" />
 
 
+Conclusion:
+ There are few deployment concepts that we covered during this exercise.
+ a. Started with the archicture for TravelMemory
+       User
+        |
+      React Frontend
+        |
+      Express API
+        |
+      MongoDB Atlas
+Followed by the deployment concept
+**AWS EC2**
+Launching EC2 instances
+Security Groups
+Public vs Private Subnets
+**Node.js Application Hosting**
+Backend hosted on EC2.
+API : GET /trip
+      POST /trip
+      GET /trip/:id
+**MongoDB Atlas**
+Cloud database used by all EC2 instances.
+   Shared database
+   EC2-1 ----\
+   EC2-2 ----- MongoDB Atlas
+   EC2-3 ----/
+  **React Production Build**
+  npm run build
+  **Nginx Web Server**
+  Installed Nginx
+     Static File Server
+        root /var/www/travelmemory;
+      Reverse Proxy
+         location /trip {
+    proxy_pass http://localhost:3001;
+   }
+   **Reverse Proxy**
+   **DNS Configuration**
+      kspractzone.online
+      Used:
+         BigRock - Domain Registrar
+         Cloudflare - DNS Provider
+**Migrated DNS management from BigRock to Cloudflare.**
+      kami.ns.cloudflare.com
+      kobe.ns.cloudflare.com
+**Configured A Record and CNAME in DNS records**
+**AWS Application Load Balancer**
+**Target Groups**
+   Registered
+      Frontend Instance 1
+      Frontend Instance 2
+**Horizontal Scaling**
+**Security Groups**
+   Configured inbound rules:
+      HTTP - Port 80
+      SSH  - Port 22
+      Backend - Port 3001
 
+      **Final Architecture**
 
-
-
+                     Users
+                        |
+                        |
+                 Cloudflare DNS
+                        |
+                        |
+                AWS Load Balancer
+                        |
+         --------------------------------
+         |                              |
+         |                              |
+     EC2 Instance 1                EC2 Instance 2
+     React + Node                  React + Node
+         |                              |
+         -----------MongoDB Atlas--------
+         
+**AWS Services Used**
+EC2
+Security Groups
+Key Pairs
+Application Load Balancer (ALB)
+Target Groups
+**DevOps Tools Used**
+Nginx
+Node.js
+React Build
+Git
+**Cloud Services Used**
+MongoDB Atlas
+Cloudflare
+BigRock DNS
 
 
 
