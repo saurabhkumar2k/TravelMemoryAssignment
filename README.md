@@ -77,6 +77,24 @@ Steps are taken as under for TravelMemory Assignment.
 <img width="1897" height="977" alt="image" src="https://github.com/user-attachments/assets/c5f40fd5-2d40-4794-9c5b-c0368f562d7f" />
 32. Now copied the DNS name from EC2 → Load Balancers → travelmemory-alb and test it in browser.
 <img width="1902" height="887" alt="image" src="https://github.com/user-attachments/assets/227e4593-81d3-4b46-8838-b53134445e6e" />
+33. Purchase a domain from BigRock
+34. Seeting up with cloudflare.
+    <img width="1847" height="993" alt="image" src="https://github.com/user-attachments/assets/2bf8cc4a-c7a2-428b-880f-883b2292a3a4" />
+
+
+36. <img width="1502" height="817" alt="image" src="https://github.com/user-attachments/assets/d42b2a32-d333-46d0-8398-c0558dc80305" />
+<img width="1490" height="773" alt="image" src="https://github.com/user-attachments/assets/2c21dbca-7f68-47ae-8cd3-2b5c4790bbac" />
+
+<img width="1857" height="786" alt="image" src="https://github.com/user-attachments/assets/3d9d8ff4-23d3-476b-9cb3-e9dbcb452e33" />
+
+<img width="1891" height="826" alt="image" src="https://github.com/user-attachments/assets/cbc19953-c1f7-4731-a4a5-167213accf59" />
+
+<img width="1913" height="966" alt="image" src="https://github.com/user-attachments/assets/5bd39e3f-ba48-4cb4-95dd-36c6c1e66de2" />
+
+
+
+
+
 
 
 
