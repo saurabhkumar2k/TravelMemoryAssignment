@@ -102,25 +102,36 @@ Conclusion:
       Express API
         |
       MongoDB Atlas
+
+      
 Followed by the deployment concept
 **AWS EC2**
 Launching EC2 instances
 Security Groups
 Public vs Private Subnets
+
+
 **Node.js Application Hosting**
 Backend hosted on EC2.
 API : GET /trip
       POST /trip
       GET /trip/:id
+
+      
 **MongoDB Atlas**
 Cloud database used by all EC2 instances.
    Shared database
+   
    EC2-1 ----\
    EC2-2 ----- MongoDB Atlas
    EC2-3 ----/
+
+   
   **React Production Build**
+  
   npm run build
   **Nginx Web Server**
+  
   Installed Nginx
      Static File Server
         root /var/www/travelmemory;
@@ -128,12 +139,15 @@ Cloud database used by all EC2 instances.
          location /trip {
     proxy_pass http://localhost:3001;
    }
+   
    **Reverse Proxy**
+   
    **DNS Configuration**
       kspractzone.online
       Used:
          BigRock - Domain Registrar
          Cloudflare - DNS Provider
+         
 **Migrated DNS management from BigRock to Cloudflare.**
       kami.ns.cloudflare.com
       kobe.ns.cloudflare.com
